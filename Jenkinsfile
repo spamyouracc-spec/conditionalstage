@@ -13,7 +13,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/<student-username>/<repo-name>.git'
+                    url: 'https://github.com/spamyouracc-spec/conditionalstage.git'
             }
         }
 
