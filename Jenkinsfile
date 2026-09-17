@@ -33,7 +33,7 @@ pipeline {
 
             steps {
                 echo 'Running extra check: verifying greet() output format...'
-                bat 'python -c "from app import greet; print(greet(''Student''))"'
+                bat 'python -c "from app import greet; print(greet(\'Student\'))"'
             }
         }
     }
